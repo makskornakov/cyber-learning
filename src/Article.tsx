@@ -24,8 +24,6 @@ const Article = () => {
   if (!article)
     return NoPage('Article not found in infoMap.json (src/infoMap.json)');
 
-  // const infoMapArray = infoMap.articles as ArticleData[];
-  // take data from infoMap.json
   console.log(article);
   console.log(textsData.texts);
   return (
