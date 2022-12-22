@@ -1,10 +1,12 @@
 import { useLocation, Link } from 'react-router-dom';
-import { HomeContainer } from './Article.styled';
+import { ArticleContainer, FooterContainer } from './Article.styled';
+import { HomeContainer } from './Home.styled';
 import infoMap from './infoMap.json';
+import NoPage from './NoPage';
 import textsData from './texts.json';
 import { ArticleData, TextData } from './types';
 
-export const Article = () => {
+const Article = () => {
   const location = useLocation();
 
   const { state } = location as {
@@ -13,12 +15,7 @@ export const Article = () => {
     };
   };
 
-  if (!state.name)
-    return (
-      <HomeContainer>
-        <h1>404</h1>
-      </HomeContainer>
-    );
+  if (!state.name) return NoPage('Article name not found in location state');
 
   const articleArray = infoMap.articles as ArticleData[];
   const textsArray = textsData.texts as TextData[];
@@ -26,11 +23,7 @@ export const Article = () => {
   const article = articleArray.find((article) => article.name === state.name);
 
   if (!article)
-    return (
-      <HomeContainer>
-        <h1>404</h1>
-      </HomeContainer>
-    );
+    return NoPage('Article not found in infoMap.json (src/infoMap.json)');
 
   // const infoMapArray = infoMap.articles as ArticleData[];
   // take data from infoMap.json
@@ -47,15 +40,17 @@ export const Article = () => {
           const textNameCapitalized =
             textName.charAt(0).toUpperCase() + textName.slice(1);
           return (
-            <div>
+            <ArticleContainer>
               <h4>{textNameCapitalized}</h4>
               <p>{text.text}</p>
-            </div>
+            </ArticleContainer>
           );
         }
         return null;
       })}
-      <Link to="/">Go back</Link>
+      <FooterContainer>
+        <Link to="/">Go back</Link>
+      </FooterContainer>
     </HomeContainer>
   );
 };

@@ -39,6 +39,46 @@
     {
       "name": "ransomware-questions",
       "text": "Some questions of ransomware"
+    },
+    {
+      "name": "malware-description",
+      "text": "Some description of malware"
+    },
+    {
+      "name": "malware-examples",
+      "text": "Some examples of malware"
+    },
+    {
+      "name": "malware-prevention",
+      "text": "Some prevention of malware"
+    },
+    {
+      "name": "malware-learning",
+      "text": "Some learning of malware"
+    },
+    {
+      "name": "malware-questions",
+      "text": "Some questions of malware"
+    },
+    {
+      "name": "wateringHole-description",
+      "text": "Some description of watering-hole"
+    },
+    {
+      "name": "wateringHole-examples",
+      "text": "Some examples of watering-hole"
+    },
+    {
+      "name": "wateringHole-prevention",
+      "text": "Some prevention of watering-hole"
+    },
+    {
+      "name": "wateringHole-learning",
+      "text": "Some learning of watering-hole"
+    },
+    {
+      "name": "wateringHole-questions",
+      "text": "Some questions of watering-hole"
     }
   ]
 }

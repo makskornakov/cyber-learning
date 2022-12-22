@@ -13,13 +13,35 @@
     },
     {
       "name": "ransomware",
-      "title": "Ransomware: How to protect your business",
+      "title": "Ransomware attack",
       "sections": [
         "ransomware-description",
         "ransomware-examples",
         "ransomware-prevention",
         "ransomware-learning",
         "ransomware-questions"
+      ]
+    },
+    {
+      "name": "malware-based",
+      "title": "Malware based attacks",
+      "sections": [
+        "malware-description",
+        "malware-examples",
+        "malware-prevention",
+        "malware-learning",
+        "malware-questions"
+      ]
+    },
+    {
+      "name": "watering-hole",
+      "title": "Watering hole attacks",
+      "sections": [
+        "wateringHole-description",
+        "wateringHole-examples",
+        "wateringHole-prevention",
+        "wateringHole-learning",
+        "wateringHole-questions"
       ]
     }
   ]

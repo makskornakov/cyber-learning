@@ -1,9 +1,9 @@
 import { useNavigate } from 'react-router-dom';
-import { HomeContainer } from './Article.styled';
+import { ButtonContainer, ButtonToArticle, HomeContainer } from './Home.styled';
 import infoMap from './infoMap.json';
 import { ArticleData } from './types';
 
-export const HomePage = () => {
+const HomePage = () => {
   const articleArray = infoMap.articles as ArticleData[];
   // get all article names from articleArray
   const articleNames = articleArray.map((article) => article.name);
@@ -11,11 +11,27 @@ export const HomePage = () => {
   const navigate = useNavigate();
   return (
     <HomeContainer>
-      <h1>Home Page</h1>
-      <div>
-        {/* Page selector */}
+      <h1>Learn from Cyber incidents</h1>
+      <div
+        style={{
+          width: '50%',
+        }}
+      >
+        <h3>Project description</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+      <h3>Incident Selector</h3>
+      <ButtonContainer>
         {articleNames.map((articleName) => (
-          <button
+          <ButtonToArticle
             style={{ margin: '0' }}
             onClick={() => {
               navigate('/article', {
@@ -25,10 +41,10 @@ export const HomePage = () => {
               });
             }}
           >
-            {articleName}
-          </button>
+            {articleName.charAt(0).toUpperCase() + articleName.slice(1)}
+          </ButtonToArticle>
         ))}
-      </div>
+      </ButtonContainer>
     </HomeContainer>
   );
 };
