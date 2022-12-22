@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 import { flexStyles } from './Home.styled';
 
 export const ArticleContainer = styled.div`
