@@ -19,8 +19,6 @@ const Article = () => {
     return NoPage('Article name not found in location state');
 
   const articleArray = infoMap.articles as ArticleData[];
-  const textsArray = textsData.texts as TextData[];
-
   const article = articleArray.find((article) => article.name === state.name);
 
   if (!article)
@@ -34,21 +32,7 @@ const Article = () => {
     <HomeContainer>
       <h1>Article page</h1>
       <h3>{article.title}</h3>
-      {article.sections.map((section) => {
-        const text = textsArray.find((text) => text.name === section);
-        if (text) {
-          const textName = text.name.split('-')[1];
-          const textNameCapitalized =
-            textName.charAt(0).toUpperCase() + textName.slice(1);
-          return (
-            <ArticleContainer>
-              <h4>{textNameCapitalized}</h4>
-              <p>{text.text}</p>
-            </ArticleContainer>
-          );
-        }
-        return null;
-      })}
+      {displayArticle(splitArrayBySimilarity(article.sections))}
       <FooterContainer>
         <Link to="/">Go back</Link>
       </FooterContainer>
@@ -57,3 +41,48 @@ const Article = () => {
 };
 
 export default Article;
+
+function splitArrayBySimilarity(array: string[]) {
+  const result = [] as string[][];
+
+  let currentArray = [] as string[];
+  for (let i = 0; i < array.length; i++) {
+    if (i === 0) {
+      currentArray.push(array[i]);
+    } else {
+      const previous = array[i - 1];
+      const current = array[i];
+
+      if (previous.split('-')[1] === current.split('-')[1]) {
+        currentArray.push(current);
+      } else {
+        result.push(currentArray);
+        currentArray = [current];
+      }
+    }
+  }
+  console.log(result);
+  return result;
+}
+
+function displayArticle(array: string[][]) {
+  const textsArray = textsData.texts as TextData[];
+
+  return array.map((section) => {
+    const text = textsArray.find((text) => text.name === section[0]);
+    if (!text) return null;
+    const textName = text.name.split('-')[1];
+    const textNameCapitalized =
+      textName.charAt(0).toUpperCase() + textName.slice(1);
+    return (
+      <ArticleContainer>
+        <h4>{textNameCapitalized}</h4>
+        {section.map((textName) => {
+          const text = textsArray.find((text) => text.name === textName);
+          if (!text) return null;
+          return <p>{text.text}</p>;
+        })}
+      </ArticleContainer>
+    );
+  });
+}
