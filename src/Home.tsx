@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+import { ArticleContainer } from './Article.styled';
 import { ButtonContainer, ButtonToArticle, HomeContainer } from './Home.styled';
 import infoMap from './infoMap.json';
 import { ArticleData } from './types';
@@ -12,11 +13,7 @@ const HomePage = () => {
   return (
     <HomeContainer>
       <h1>Learning from Cyber incidents</h1>
-      <div
-        style={{
-          width: '50%',
-        }}
-      >
+      <ArticleContainer>
         <h3>Project description</h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -27,7 +24,7 @@ const HomePage = () => {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
-      </div>
+      </ArticleContainer>
       <h3>Incident Selector</h3>
       <ButtonContainer>
         {articleNames.map((articleName) => (

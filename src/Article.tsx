@@ -75,7 +75,11 @@ function displayArticle(array: string[][]) {
       textName.charAt(0).toUpperCase() + textName.slice(1);
 
     return (
-      <ArticleContainer>
+      <ArticleContainer
+        style={{
+          outline: '0.5px solid black',
+        }}
+      >
         <h4>{textNameCapitalized}</h4>
         {section.map((textName) => {
           const text = textsArray.find((text) => text.name === textName);

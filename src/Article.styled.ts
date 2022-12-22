@@ -5,9 +5,17 @@ export const ArticleContainer = styled.div`
   ${flexStyles}
   flex-direction: column;
 
-  outline: 1px solid black;
-  width: 50%;
+  /* outline: 1px solid black; */
+  width: 60%;
   margin-top: 20px;
+
+  @media (max-width: 900px) {
+    width: 80%;
+  }
+
+  @media (max-width: 600px) {
+    width: 90%;
+  }
 `;
 
 export const FooterContainer = styled.div`
