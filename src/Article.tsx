@@ -44,8 +44,8 @@ export default Article;
 
 function splitArrayBySimilarity(array: string[]) {
   const result = [] as string[][];
-
   let currentArray = [] as string[];
+
   for (let i = 0; i < array.length; i++) {
     if (i === 0) {
       currentArray.push(array[i]);
@@ -70,10 +70,12 @@ function displayArticle(array: string[][]) {
 
   return array.map((section) => {
     const text = textsArray.find((text) => text.name === section[0]);
+
     if (!text) return null;
     const textName = text.name.split('-')[1];
     const textNameCapitalized =
       textName.charAt(0).toUpperCase() + textName.slice(1);
+
     return (
       <ArticleContainer>
         <h4>{textNameCapitalized}</h4>
