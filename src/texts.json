@@ -5,6 +5,68 @@
       "text": "Some description of phishing"
     },
     {
+      "name": "ransomware-description",
+      "text": "Some description of ransomware"
+    },
+    {
+      "name": "malware-description",
+      "text": "Some description of malware"
+    },
+    {
+      "name": "wateringHole-description",
+      "text": "Some description of watering-hole"
+    },
+    {
+      "name": "ddos-description",
+      "text": "some description of DDOS"
+    },
+    {
+      "name": "zeroDay-description",
+      "text": "some description of zero day exploit"
+    },
+    {
+      "name": "crossLine-description",
+      "text": "some description of cross line attack"
+    },
+
+    {
+      "name": "noCyberAwareness-reason",
+      "text": "Some reason of no cyber awareness"
+    },
+    {
+      "name": "noSecurityAudit-reason",
+      "text": "Some reason of no security audit"
+    },
+    {
+      "name": "systemsNotUpToDate-reason",
+      "text": "Some reason of systems not up to date"
+    },
+    {
+      "name": "notSecureInternet-reason",
+      "text": "Some reason of not secure internet"
+    },
+    {
+      "name": "noUseOfVpn-reason",
+      "text": "Some reason of no use of vpn"
+    },
+    {
+      "name": "noUseOfMfa-reason",
+      "text": "Some reason of no use of MFA"
+    },
+    {
+      "name": "noFireWall-reason",
+      "text": "Some reason of no use of firewall"
+    },
+    {
+      "name": "noEndPointSecurity-reason",
+      "text": "Some reason of no use of endpoint security"
+    },
+    {
+      "name": "notSecureApplication-reason",
+      "text": "Some reason of not secure application"
+    },
+
+    {
       "name": "phishing-examples",
       "text": "Some examples of phishing"
     },
@@ -19,10 +81,6 @@
     {
       "name": "phishing-questions",
       "text": "Some questions of phishing"
-    },
-    {
-      "name": "ransomware-description",
-      "text": "Some description of ransomware"
     },
     {
       "name": "ransomware-examples",
@@ -41,10 +99,6 @@
       "text": "Some questions of ransomware"
     },
     {
-      "name": "malware-description",
-      "text": "Some description of malware"
-    },
-    {
       "name": "malware-examples",
       "text": "Some examples of malware"
     },
@@ -61,10 +115,6 @@
       "text": "Some questions of malware"
     },
     {
-      "name": "wateringHole-description",
-      "text": "Some description of watering-hole"
-    },
-    {
       "name": "wateringHole-examples",
       "text": "Some examples of watering-hole"
     },
@@ -79,6 +129,54 @@
     {
       "name": "wateringHole-questions",
       "text": "Some questions of watering-hole"
+    },
+    {
+      "name": "ddos-examples",
+      "text": "Some examples of ddos"
+    },
+    {
+      "name": "ddos-prevention",
+      "text": "Some prevention of ddos"
+    },
+    {
+      "name": "ddos-learning",
+      "text": "Some learning of ddos"
+    },
+    {
+      "name": "ddos-questions",
+      "text": "Some questions of ddos"
+    },
+    {
+      "name": "zeroDay-examples",
+      "text": "Some examples of zeroDay"
+    },
+    {
+      "name": "zeroDay-prevention",
+      "text": "Some prevention of zeroDay"
+    },
+    {
+      "name": "zeroDay-learning",
+      "text": "Some learning of zeroDay"
+    },
+    {
+      "name": "zeroDay-questions",
+      "text": "Some questions of zeroDay"
+    },
+    {
+      "name": "crossLine-examples",
+      "text": "Some examples of crossLine"
+    },
+    {
+      "name": "crossLine-prevention",
+      "text": "Some prevention of crossLine"
+    },
+    {
+      "name": "crossLine-learning",
+      "text": "Some learning of crossLine"
+    },
+    {
+      "name": "crossLine-questions",
+      "text": "Some questions of crossLine"
     }
   ]
 }

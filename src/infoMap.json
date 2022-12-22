@@ -5,6 +5,7 @@
       "title": "Phishing attacks: How to protect your business",
       "sections": [
         "phishing-description",
+        "noCyberAwareness-reason",
         "phishing-examples",
         "phishing-prevention",
         "phishing-learning",
@@ -16,6 +17,8 @@
       "title": "Ransomware attack",
       "sections": [
         "ransomware-description",
+        "noCyberAwareness-reason",
+        "systemsNotUpToDate-reason",
         "ransomware-examples",
         "ransomware-prevention",
         "ransomware-learning",
@@ -27,6 +30,7 @@
       "title": "Malware based attacks",
       "sections": [
         "malware-description",
+        "systemsNotUpToDate-reason",
         "malware-examples",
         "malware-prevention",
         "malware-learning",
@@ -38,10 +42,65 @@
       "title": "Watering hole attacks",
       "sections": [
         "wateringHole-description",
+        "noCyberAwareness-reason",
+        "noSecurityAudit-reason",
+        "systemsNotUpToDate-reason",
+        "noUseOfVpn-reason",
         "wateringHole-examples",
         "wateringHole-prevention",
         "wateringHole-learning",
         "wateringHole-questions"
+      ]
+    },
+    {
+      "name": "man-middle",
+      "title": "Man in the middle attack",
+      "sections": [
+        "wateringHole-description",
+        "notSecureInternet-reason",
+        "noUseOfVpn-reason",
+        "noUseOfMfa-reason",
+        "noEndPointSecurity-reason",
+        "wateringHole-examples",
+        "wateringHole-prevention",
+        "wateringHole-learning",
+        "wateringHole-questions"
+      ]
+    },
+    {
+      "name": "ddos-attack",
+      "title": "DDOS Attack",
+      "sections": [
+        "ddos-description",
+        "noFireWall-reason",
+        "ddos-examples",
+        "ddos-prevention",
+        "ddos-learning",
+        "ddos-questions"
+      ]
+    },
+    {
+      "name": "zeroDay-exploit",
+      "title": "Zero Day Exploit",
+      "sections": [
+        "zeroDay-description",
+        "noFireWall-reason",
+        "zeroDay-examples",
+        "zeroDay-prevention",
+        "zeroDay-learning",
+        "zeroDay-questions"
+      ]
+    },
+    {
+      "name": "crossLine-scripting",
+      "title": "Cross line scripting attack",
+      "sections": [
+        "crossLine-description",
+        "notSecureApplication-reason",
+        "crossLine-examples",
+        "crossLine-prevention",
+        "crossLine-learning",
+        "crossLine-questions"
       ]
     }
   ]
