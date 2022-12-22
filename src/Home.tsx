@@ -11,7 +11,7 @@ const HomePage = () => {
   const navigate = useNavigate();
   return (
     <HomeContainer>
-      <h1>Learn from Cyber incidents</h1>
+      <h1>Learning from Cyber incidents</h1>
       <div
         style={{
           width: '50%',
