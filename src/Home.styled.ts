@@ -15,10 +15,12 @@ export const HomeContainer = styled.div`
 `;
 
 export const ButtonContainer = styled.div`
-  ${flexStyles}
-  flex-direction: row;
-  justify-content: space-evenly;
-  width: 60%;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  grid-gap: 20px;
+  width: 50%;
 `;
 
 export const ButtonToArticle = styled.button`
