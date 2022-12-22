@@ -1,0 +1,44 @@
+{
+  "texts": [
+    {
+      "name": "phishing-description",
+      "text": "Some description of phishing"
+    },
+    {
+      "name": "phishing-examples",
+      "text": "Some examples of phishing"
+    },
+    {
+      "name": "phishing-prevention",
+      "text": "Some prevention of phishing"
+    },
+    {
+      "name": "phishing-learning",
+      "text": "Some learning of phishing"
+    },
+    {
+      "name": "phishing-questions",
+      "text": "Some questions of phishing"
+    },
+    {
+      "name": "ransomware-description",
+      "text": "Some description of ransomware"
+    },
+    {
+      "name": "ransomware-examples",
+      "text": "Some examples of ransomware"
+    },
+    {
+      "name": "ransomware-prevention",
+      "text": "Some prevention of ransomware"
+    },
+    {
+      "name": "ransomware-learning",
+      "text": "Some learning of ransomware"
+    },
+    {
+      "name": "ransomware-questions",
+      "text": "Some questions of ransomware"
+    }
+  ]
+}

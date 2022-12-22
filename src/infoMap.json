@@ -1,0 +1,26 @@
+{
+  "articles": [
+    {
+      "name": "phishing",
+      "title": "Phishing attacks: How to protect your business",
+      "sections": [
+        "phishing-description",
+        "phishing-examples",
+        "phishing-prevention",
+        "phishing-learning",
+        "phishing-questions"
+      ]
+    },
+    {
+      "name": "ransomware",
+      "title": "Ransomware: How to protect your business",
+      "sections": [
+        "ransomware-description",
+        "ransomware-examples",
+        "ransomware-prevention",
+        "ransomware-learning",
+        "ransomware-questions"
+      ]
+    }
+  ]
+}
