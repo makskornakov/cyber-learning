@@ -15,7 +15,8 @@ const Article = () => {
     };
   };
 
-  if (!state.name) return NoPage('Article name not found in location state');
+  if (!state || !state.name)
+    return NoPage('Article name not found in location state');
 
   const articleArray = infoMap.articles as ArticleData[];
   const textsArray = textsData.texts as TextData[];
