@@ -8,7 +8,7 @@ export const flexStyles = css`
 export const HomeContainer = styled.div`
   ${flexStyles}
   flex-direction: column;
-
+  text-align: center;
   & h1 {
     margin-top: 50px;
   }
@@ -17,10 +17,21 @@ export const HomeContainer = styled.div`
 export const ButtonContainer = styled.div`
   margin-top: 20px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
   justify-items: center;
   grid-gap: 20px;
   width: 50%;
+  margin-bottom: 50px;
+  grid-template-columns: repeat(4, 1fr);
+
+  @media (max-width: 1000px) {
+    width: 70%;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (max-width: 600px) {
+    width: 80%;
+    grid-template-columns: repeat(2, 1fr);
+  }
 `;
 
 export const ButtonToArticle = styled.button`
