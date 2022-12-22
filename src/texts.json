@@ -67,6 +67,43 @@
     },
 
     {
+      "name": "trainStaff-prevention",
+      "text": "some train staff as prevention"
+    },
+    {
+      "name": "audit-prevention",
+      "text": "some audit as prevention"
+    },
+    {
+      "name": "systemUpdate-prevention",
+      "text": "some system update as prevention"
+    },
+    {
+      "name": "safeInternet-prevention",
+      "text": "some safe internet as prevention"
+    },
+    {
+      "name": "getVpn-prevention",
+      "text": "some vpn as prevention"
+    },
+    {
+      "name": "useMfa-prevention",
+      "text": "some MFA as prevention"
+    },
+    {
+      "name": "firewall-prevention",
+      "text": "some firewall as prevention"
+    },
+    {
+      "name": "endPointSecurity-prevention",
+      "text": "some end point security as prevention"
+    },
+    {
+      "name": "createSecureApp-prevention",
+      "text": "some create secure application as prevention"
+    },
+
+    {
       "name": "phishing-examples",
       "text": "Some examples of phishing"
     },

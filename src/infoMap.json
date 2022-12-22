@@ -5,9 +5,12 @@
       "title": "Phishing attacks: How to protect your business",
       "sections": [
         "phishing-description",
+
         "noCyberAwareness-reason",
+
+        "trainStaff-prevention",
+
         "phishing-examples",
-        "phishing-prevention",
         "phishing-learning",
         "phishing-questions"
       ]
@@ -17,24 +20,16 @@
       "title": "Ransomware attack",
       "sections": [
         "ransomware-description",
+
         "noCyberAwareness-reason",
         "systemsNotUpToDate-reason",
+
+        "trainStaff-prevention",
+        "systemUpdate-prevention",
+
         "ransomware-examples",
-        "ransomware-prevention",
         "ransomware-learning",
         "ransomware-questions"
-      ]
-    },
-    {
-      "name": "malware-based",
-      "title": "Malware based attacks",
-      "sections": [
-        "malware-description",
-        "systemsNotUpToDate-reason",
-        "malware-examples",
-        "malware-prevention",
-        "malware-learning",
-        "malware-questions"
       ]
     },
     {
@@ -42,27 +37,55 @@
       "title": "Watering hole attacks",
       "sections": [
         "wateringHole-description",
+
         "noCyberAwareness-reason",
         "noSecurityAudit-reason",
         "systemsNotUpToDate-reason",
         "noUseOfVpn-reason",
+
+        "trainStaff-prevention",
+        "audit-prevention",
+        "systemUpdate-prevention",
+        "getVpn-prevention",
+
         "wateringHole-examples",
-        "wateringHole-prevention",
         "wateringHole-learning",
         "wateringHole-questions"
       ]
     },
     {
+      "name": "malware-based",
+      "title": "Malware based attacks",
+      "sections": [
+        "malware-description",
+
+        "systemsNotUpToDate-reason",
+
+        "systemUpdate-prevention",
+
+        "malware-examples",
+        "malware-learning",
+        "malware-questions"
+      ]
+    },
+
+    {
       "name": "man-middle",
       "title": "Man in the middle attack",
       "sections": [
         "wateringHole-description",
+
         "notSecureInternet-reason",
         "noUseOfVpn-reason",
         "noUseOfMfa-reason",
         "noEndPointSecurity-reason",
+
+        "safeInternet-prevention",
+        "getVpn-prevention",
+        "useMfa-prevention",
+        "endPointSecurity-prevention",
+
         "wateringHole-examples",
-        "wateringHole-prevention",
         "wateringHole-learning",
         "wateringHole-questions"
       ]
@@ -72,9 +95,12 @@
       "title": "DDOS Attack",
       "sections": [
         "ddos-description",
+
         "noFireWall-reason",
+
+        "firewall-prevention",
+
         "ddos-examples",
-        "ddos-prevention",
         "ddos-learning",
         "ddos-questions"
       ]
@@ -84,9 +110,12 @@
       "title": "Zero Day Exploit",
       "sections": [
         "zeroDay-description",
+
         "noFireWall-reason",
+
+        "firewall-prevention",
+
         "zeroDay-examples",
-        "zeroDay-prevention",
         "zeroDay-learning",
         "zeroDay-questions"
       ]
@@ -96,9 +125,12 @@
       "title": "Cross line scripting attack",
       "sections": [
         "crossLine-description",
+
         "notSecureApplication-reason",
+
+        "createSecureApp-prevention",
+
         "crossLine-examples",
-        "crossLine-prevention",
         "crossLine-learning",
         "crossLine-questions"
       ]
