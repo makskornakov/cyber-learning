@@ -4,68 +4,93 @@
       "name": "phishing",
       "title": "Phishing attacks: How to protect your business",
       "sections": [
-        "phishing-description",
-
-        "noCyberAwareness-reason",
-
-        "trainStaff-prevention",
-
-        "phishing-examples",
-        "phishing-learning",
-        "phishing-questions"
+        {
+          "name": "description",
+          "paragraphs": ["phishing"]
+        },
+        {
+          "name": "reason",
+          "paragraphs": ["noCyberAwareness"]
+        },
+        {
+          "name": "prevention",
+          "paragraphs": ["trainStaff"]
+        },
+        {
+          "name": "learning",
+          "paragraphs": ["phishing"]
+        }
       ]
     },
     {
       "name": "ransomware",
       "title": "Ransomware attack",
       "sections": [
-        "ransomware-description",
-
-        "noCyberAwareness-reason",
-        "systemsNotUpToDate-reason",
-
-        "trainStaff-prevention",
-        "systemUpdate-prevention",
-
-        "ransomware-examples",
-        "ransomware-learning",
-        "ransomware-questions"
+        {
+          "name": "description",
+          "paragraphs": ["ransomware"]
+        },
+        {
+          "name": "reason",
+          "paragraphs": ["noCyberAwareness", "systemsNotUpToDate"]
+        },
+        {
+          "name": "prevention",
+          "paragraphs": ["trainStaff", "systemUpdate"]
+        },
+        {
+          "name": "learning",
+          "paragraphs": ["ransomware"]
+        }
       ]
     },
     {
       "name": "watering-hole",
       "title": "Watering hole attacks",
       "sections": [
-        "wateringHole-description",
-
-        "noCyberAwareness-reason",
-        "noSecurityAudit-reason",
-        "systemsNotUpToDate-reason",
-        "noUseOfVpn-reason",
-
-        "trainStaff-prevention",
-        "audit-prevention",
-        "systemUpdate-prevention",
-        "getVpn-prevention",
-
-        "wateringHole-examples",
-        "wateringHole-learning",
-        "wateringHole-questions"
+        {
+          "name": "description",
+          "paragraphs": ["wateringHole"]
+        },
+        {
+          "name": "reason",
+          "paragraphs": [
+            "noCyberAwareness",
+            "noSecurityAudit",
+            "systemsNotUpToDate",
+            "noUseOfVpn"
+          ]
+        },
+        {
+          "name": "prevention",
+          "paragraphs": ["trainStaff", "audit", "systemUpdate", "getVpn"]
+        },
+        {
+          "name": "learning",
+          "paragraphs": ["wateringHole"]
+        }
       ]
     },
     {
       "name": "malware-based",
       "title": "Malware based attacks",
       "sections": [
-        "malware-description",
-
-        "systemsNotUpToDate-reason",
-
-        "systemUpdate-prevention",
-
-        "malware-examples",
-        "malware-learning",
-        "malware-questions"
+        {
+          "name": "description",
+          "paragraphs": ["malware"]
+        },
+        {
+          "name": "reason",
+          "paragraphs": ["systemsNotUpToDate"]
+        },
+        {
+          "name": "prevention",
+          "paragraphs": ["systemUpdate"]
+        },
+        {
+          "name": "learning",
+          "paragraphs": ["malware"]
+        }
       ]
     },
 
@@ -73,66 +98,93 @@
       "name": "man-middle",
       "title": "Man in the middle attack",
       "sections": [
-        "wateringHole-description",
-
-        "notSecureInternet-reason",
-        "noUseOfVpn-reason",
-        "noUseOfMfa-reason",
-        "noEndPointSecurity-reason",
-
-        "safeInternet-prevention",
-        "getVpn-prevention",
-        "useMfa-prevention",
-        "endPointSecurity-prevention",
-
-        "wateringHole-examples",
-        "wateringHole-learning",
-        "wateringHole-questions"
+        {
+          "name": "description",
+          "paragraphs": ["manInTheMiddle"]
+        },
+        {
+          "name": "reason",
+          "paragraphs": [
+            "notSecureInternet",
+            "noUseOfVpn",
+            "noUseOfMfa",
+            "noEndPointSecurity"
+          ]
+        },
+        {
+          "name": "prevention",
+          "paragraphs": ["safeInternet", "getVpn", "useMfa", "endPointSecurity"]
+        },
+        {
+          "name": "learning",
+          "paragraphs": ["manInTheMiddle"]
+        }
       ]
     },
     {
       "name": "ddos-attack",
       "title": "DDOS Attack",
       "sections": [
-        "ddos-description",
-
-        "noFireWall-reason",
-
-        "firewall-prevention",
-
-        "ddos-examples",
-        "ddos-learning",
-        "ddos-questions"
+        {
+          "name": "description",
+          "paragraphs": ["ddos"]
+        },
+        {
+          "name": "reason",
+          "paragraphs": ["noFireWall"]
+        },
+        {
+          "name": "prevention",
+          "paragraphs": ["firewall"]
+        },
+        {
+          "name": "learning",
+          "paragraphs": ["ddos"]
+        }
       ]
     },
     {
       "name": "zeroDay-exploit",
       "title": "Zero Day Exploit",
       "sections": [
-        "zeroDay-description",
-
-        "noFireWall-reason",
-
-        "firewall-prevention",
-
-        "zeroDay-examples",
-        "zeroDay-learning",
-        "zeroDay-questions"
+        {
+          "name": "description",
+          "paragraphs": ["zeroDay"]
+        },
+        {
+          "name": "reason",
+          "paragraphs": ["noFireWall"]
+        },
+        {
+          "name": "prevention",
+          "paragraphs": ["firewall"]
+        },
+        {
+          "name": "learning",
+          "paragraphs": ["zeroDay"]
+        }
       ]
     },
     {
       "name": "crossLine-scripting",
       "title": "Cross line scripting attack",
       "sections": [
-        "crossLine-description",
-
-        "notSecureApplication-reason",
-
-        "createSecureApp-prevention",
-
-        "crossLine-examples",
-        "crossLine-learning",
-        "crossLine-questions"
+        {
+          "name": "description",
+          "paragraphs": ["crossLine"]
+        },
+        {
+          "name": "reason",
+          "paragraphs": ["notSecureApplication"]
+        },
+        {
+          "name": "prevention",
+          "paragraphs": ["createSecureApp"]
+        },
+        {
+          "name": "learning",
+          "paragraphs": ["crossLine"]
+        }
       ]
     }
   ]

@@ -17,6 +17,10 @@
       "text": "Some description of watering-hole"
     },
     {
+      "name": "manInTheMiddle-description",
+      "text": "Some description of manInTheMiddle attack"
+    },
+    {
       "name": "ddos-description",
       "text": "some description of DDOS"
     },
@@ -104,116 +108,41 @@
     },
 
     {
-      "name": "phishing-examples",
-      "text": "Some examples of phishing"
-    },
-    {
-      "name": "phishing-prevention",
-      "text": "Some prevention of phishing"
-    },
-    {
       "name": "phishing-learning",
       "text": "Some learning of phishing"
     },
-    {
-      "name": "phishing-questions",
-      "text": "Some questions of phishing"
-    },
-    {
-      "name": "ransomware-examples",
-      "text": "Some examples of ransomware"
-    },
-    {
-      "name": "ransomware-prevention",
-      "text": "Some prevention of ransomware"
-    },
+
     {
       "name": "ransomware-learning",
       "text": "Some learning of ransomware"
     },
-    {
-      "name": "ransomware-questions",
-      "text": "Some questions of ransomware"
-    },
-    {
-      "name": "malware-examples",
-      "text": "Some examples of malware"
-    },
-    {
-      "name": "malware-prevention",
-      "text": "Some prevention of malware"
-    },
+
     {
       "name": "malware-learning",
       "text": "Some learning of malware"
     },
     {
-      "name": "malware-questions",
-      "text": "Some questions of malware"
-    },
-    {
-      "name": "wateringHole-examples",
-      "text": "Some examples of watering-hole"
-    },
-    {
-      "name": "wateringHole-prevention",
-      "text": "Some prevention of watering-hole"
+      "name": "manInTheMiddle-learning",
+      "text": "Some learning of manInTheMiddle attack"
     },
     {
       "name": "wateringHole-learning",
       "text": "Some learning of watering-hole"
     },
-    {
-      "name": "wateringHole-questions",
-      "text": "Some questions of watering-hole"
-    },
-    {
-      "name": "ddos-examples",
-      "text": "Some examples of ddos"
-    },
-    {
-      "name": "ddos-prevention",
-      "text": "Some prevention of ddos"
-    },
+
     {
       "name": "ddos-learning",
       "text": "Some learning of ddos"
     },
-    {
-      "name": "ddos-questions",
-      "text": "Some questions of ddos"
-    },
-    {
-      "name": "zeroDay-examples",
-      "text": "Some examples of zeroDay"
-    },
-    {
-      "name": "zeroDay-prevention",
-      "text": "Some prevention of zeroDay"
-    },
+
     {
       "name": "zeroDay-learning",
       "text": "Some learning of zeroDay"
     },
-    {
-      "name": "zeroDay-questions",
-      "text": "Some questions of zeroDay"
-    },
-    {
-      "name": "crossLine-examples",
-      "text": "Some examples of crossLine"
-    },
-    {
-      "name": "crossLine-prevention",
-      "text": "Some prevention of crossLine"
-    },
+
     {
       "name": "crossLine-learning",
       "text": "Some learning of crossLine"
-    },
-    {
-      "name": "crossLine-questions",
-      "text": "Some questions of crossLine"
     }
   ]
 }

@@ -24,13 +24,13 @@ const Article = () => {
   if (!article)
     return NoPage('Article not found in infoMap.json (src/infoMap.json)');
 
-  console.log(article);
-  console.log(textsData.texts);
+  // console.log(article);
+  // console.log(textsData.texts);
   return (
     <HomeContainer>
       <h1>Article page</h1>
       <h3>{article.title}</h3>
-      {displayArticle(splitArrayBySimilarity(article.sections))}
+      {renderArticle(article)}
       <FooterContainer>
         <Link to="/">Go back</Link>
       </FooterContainer>
@@ -40,49 +40,21 @@ const Article = () => {
 
 export default Article;
 
-function splitArrayBySimilarity(array: string[]) {
-  const result = [] as string[][];
-  let currentArray = [] as string[];
-
-  for (let i = 0; i < array.length; i++) {
-    if (i === 0) {
-      currentArray.push(array[i]);
-    } else {
-      const previous = array[i - 1];
-      const current = array[i];
-
-      if (previous.split('-')[1] === current.split('-')[1]) {
-        currentArray.push(current);
-      } else {
-        result.push(currentArray);
-        currentArray = [current];
-      }
-    }
-  }
-  console.log(result);
-  return result;
-}
-
-function displayArticle(array: string[][]) {
+function renderArticle(article: ArticleData) {
   const textsArray = textsData.texts as TextData[];
 
-  return array.map((section) => {
-    const text = textsArray.find((text) => text.name === section[0]);
-
-    if (!text) return null;
-    const textName = text.name.split('-')[1];
+  return article.sections.map((sectionArray) => {
+    const textName = sectionArray.name;
     const textNameCapitalized =
       textName.charAt(0).toUpperCase() + textName.slice(1);
 
     return (
-      <ArticleContainer
-        style={{
-          outline: '0.5px solid black',
-        }}
-      >
+      <ArticleContainer>
         <h4>{textNameCapitalized}</h4>
-        {section.map((textName) => {
-          const text = textsArray.find((text) => text.name === textName);
+        {sectionArray.paragraphs.map((section) => {
+          const text = textsArray.find(
+            (text) => text.name === `${section}-${textName}`
+          );
           if (!text) return null;
           return <p>{text.text}</p>;
         })}
