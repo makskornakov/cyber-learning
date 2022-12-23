@@ -23,7 +23,7 @@ export const FooterContainer = styled.div`
   flex-direction: row;
   width: 100%;
   height: 50px;
-  outline: 1px solid black;
+  outline: 0.5px solid black;
   margin-top: 50px;
   margin-bottom: 50px;
 `;
