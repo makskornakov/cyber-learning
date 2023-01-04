@@ -10,7 +10,7 @@
     },
     {
       "name": "malware-description",
-      "text": "Some description of malware"
+      "text": "A malware-based attack is a cyber attack in which an attacker delivers malware to a victim's device or network. Malware is a type of software that is designed to disrupt, damage, or gain unauthorized access to a computer system. Many types of malware include viruses, worms, Trojans, and ransomware. Malware-based attacks can be carried out through various methods, including email attachments, malicious links, and drive-by downloads. Malware-based attacks can significantly impact an organization, disrupting operations, stealing sensitive data, and potentially leading to financial loss. "
     },
     {
       "name": "wateringHole-description",
@@ -26,11 +26,11 @@
     },
     {
       "name": "zeroDay-description",
-      "text": "some description of zero day exploit"
+      "text": "A zero-day exploit is a type of cyber attack that takes advantage of a previously unknown vulnerability in a system or software. The term \"zero days\" refers to the fact that the vulnerability has not yet been discovered or addressed by the vendor, meaning that the system or software is vulnerable on the day (or \"zero days\") the exploit is launched. Zero-day exploits are often used to carry out targeted attacks against specific individuals or organizations and can be challenging to detect and prevent. To protect against zero-day exploits, organizations can implement security measures such as firewalls, intrusion prevention systems, and antivirus software and can ensure that their systems and software are regularly updated to address known vulnerabilities."
     },
     {
       "name": "crossLine-description",
-      "text": "some description of cross line attack"
+      "text": "Cross-site scripting (XSS) is a type of cyber attack that involves injecting malicious code into a legitimate website or web application. The code is usually executed in the browser of the victim, who is tricked into visiting the compromised website or web application. XSS attacks can be used to steal sensitive information, such as login credentials, or to execute malicious actions, such as redirecting the victim to a phishing site. XSS attacks can be difficult to prevent because they do not directly attack the target organization and because the compromised website or web application may appear legitimate."
     },
 
     {
@@ -67,7 +67,7 @@
     },
     {
       "name": "notSecureApplication-reason",
-      "text": "Some reason of not secure application"
+      "text": "Having insecure applications can make an organization more vulnerable to cyber-attacks because it increases the risk of vulnerabilities being exploited. Insecure applications may contain vulnerabilities such as unpatched software bugs or weak authentication methods, which attackers can exploit to gain unauthorized access to systems and data. By using insecure applications, an organization may be more likely to fall victim to malware or other cyber threats, compromising the organization's security posture."
     },
 
     {
@@ -104,7 +104,7 @@
     },
     {
       "name": "createSecureApp-prevention",
-      "text": "some create secure application as prevention"
+      "text": "Secure applications are less likely to contain vulnerabilities such as unpatched software bugs or weak authentication methods, which attackers can exploit to gain unauthorized access to systems and data. By using secure applications, an organization is better protected against malware and other cyber threats, which can compromise the organization's security posture. To ensure that applications are safe, organizations should regularly update and patch their applications to address known vulnerabilities, implement strong authentication methods, and use security tools such as firewalls and antivirus software."
     },
 
     {
@@ -119,7 +119,7 @@
 
     {
       "name": "malware-learning",
-      "text": "Some learning of malware"
+      "text": "<ol><li>The vulnerabilities that were exploited: By analyzing the details of the malware-based attack, an organization can determine the specific vulnerabilities that the attacker exploited. This information can be used to improve the organization's security posture and prevent similar attacks in the future.</li><li>The need for solid security protocols: A malware-based attack may indicate that an organization's security protocols are not strong enough to prevent the delivery of malware to the network. By learning from the attack, an organization can strengthen its security protocols and improve its overall security posture.</li><li>The importance of monitoring for unusual activity: A malware-based attack may be successful if an organization does not have adequate monitoring to detect and respond to unusual activity. By learning from the attack, an organization can improve its monitoring capabilities and be better prepared to detect and prevent similar attacks in the future.</li></ol>"
     },
     {
       "name": "manInTheMiddle-learning",
@@ -137,12 +137,12 @@
 
     {
       "name": "zeroDay-learning",
-      "text": "Some learning of zeroDay"
+      "text": "<ol><li>The vulnerabilities that were exploited: By analyzing the details of the zero-day exploit attack, an organization can determine the vulnerabilities exploited by the attacker. This information can be used to improve the organization's security posture and prevent similar attacks in the future.</li><li>The importance of keeping systems and software up to date: A zero-day exploit attack may be successful if an organization's systems or software contain known vulnerabilities that have not yet been addressed. By learning from the attack, an organization can prioritize the importance of keeping its systems and software up to date to address known vulnerabilities.</li><li>The importance of monitoring for unusual activity: A zero-day exploit attack may be successful if an organization does not have adequate monitoring to detect and respond to unusual activity. By learning from the attack, an organization can improve its monitoring capabilities and be better prepared to detect and prevent similar attacks in the future.</li></ol>"
     },
 
     {
       "name": "crossLine-learning",
-      "text": "Some learning of crossLine"
+      "text": "<ol><li>The vulnerabilities that were exploited: By analyzing the details of the XSS attack, an organization can determine the specific vulnerabilities that the attacker exploited. This information can be used to improve the organization's security posture and prevent similar attacks in the future.</li><li>The importance of input validation: A XSS attack may be successful if an organization does not correctly validate user-provided input. By learning from the attack, an organization can improve its input validation processes to prevent malicious code from being injected into its website or web application.</li><li>The importance of monitoring for unusual activity: An XSS attack may be successful if an organization does not have adequate monitoring to detect and respond to unusual activity. By learning from the attack, an organization can improve its monitoring capabilities and be better prepared to detect and prevent similar attacks in the future.</li></ol>"
     }
   ]
 }

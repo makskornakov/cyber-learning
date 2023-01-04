@@ -24,9 +24,8 @@ export const ArticleContainer = styled.div`
     text-align: left;
     white-space: pre-line;
 
-    //ol no space on the left
     & ol {
-      margin: 0;
+      margin: 5px 0;
       padding-left: 30px;
 
       & li {
