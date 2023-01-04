@@ -18,7 +18,7 @@
     },
     {
       "name": "manInTheMiddle-description",
-      "text": "Some description of manInTheMiddle attack"
+      "text": "A man-in-the-middle (MITM) attack is a cyber attack in which an attacker intercepts and manipulates communications between two parties. The attacker acts as a 'middleman' and can read, modify, and even forge messages as they pass between those parties.\n\nThere are several ways that a MITM attack can be carried out. One standard method is using a malicious wireless access point, which the attacker sets up to look like a legitimate network. When a victim connects to this network, the attacker can intercept and manipulate their communications. MITM attacks can also be carried out through other means, such as malware on a victim's device or a compromised website.\n\nMITM attacks can have serious consequences, as they allow the attacker to gain access to sensitive information and potentially compromise an organization's security. Using secure communication methods, such as encrypted connections, is vital to protect against MITM attacks."
     },
     {
       "name": "ddos-description",
@@ -47,15 +47,15 @@
     },
     {
       "name": "notSecureInternet-reason",
-      "text": "Some reason of not secure internet"
+      "text": "A problem with using an unsecured internet connection in an organization is that it can increase the risk of cyber-attacks and data breaches. An unsecured connection may be more vulnerable to interception by hackers or cybercriminals, allowing them to access sensitive information transmitted over the internet. This can compromise sensitive data, cause financial loss, and damage the organization's reputation.\n\nTo reduce the risk of cyber-attacks and data breaches, organizations need to use a secure internet connection and implement appropriate security measures."
     },
     {
       "name": "noUseOfVpn-reason",
-      "text": "Some reason of no use of vpn"
+      "text": "Not using a virtual private network (VPN) can make an organization more vulnerable to cyber-attacks because it does not provide an additional layer of security for internet communications. Without a VPN, an organization's internet communications are more susceptible to interception and manipulation, leading to data breaches and other cyber attacks. Additionally, not using a VPN can make an organization more vulnerable to man-in-the-middle (MITM) attacks, in which an attacker intercepts and manipulates communications between two parties. "
     },
     {
       "name": "noUseOfMfa-reason",
-      "text": "Some reason of no use of MFA"
+      "text": "Not using multi-factor authentication (MFA) can make an organization more vulnerable to cyber-attacks because it does not provide an additional layer of security to protect against unauthorized access.\n\nWithout MFA, an organization is more vulnerable to attacks relying on stolen login credentials and may be at increased risk of data breaches and other cyber attacks. "
     },
     {
       "name": "noFireWall-reason",
@@ -63,7 +63,7 @@
     },
     {
       "name": "noEndPointSecurity-reason",
-      "text": "Some reason of no use of endpoint security"
+      "text": "Not using endpoint security can make an organization more vulnerable to cyber-attacks because it does not protect the devices and systems used to access the organization's network. Without endpoint security, an organization's devices and systems are more vulnerable to being compromised by cyber threats, which can lead to data breaches and other types of cyber attacks. Additionally, not using endpoint security can make an organization more vulnerable to unauthorized access to systems and data. "
     },
     {
       "name": "notSecureApplication-reason",
@@ -84,15 +84,15 @@
     },
     {
       "name": "safeInternet-prevention",
-      "text": "some safe internet as prevention"
+      "text": "Implementing safe internet practices can increase an organization's cyber resilience by reducing the risk of cyber attacks and data breaches. Safe internet practices can include using a secure internet connection, implementing appropriate security measures such as firewalls and antivirus software, and providing employee training on how to recognize and prevent cyber threats. By following safe internet practices, an organization can reduce the risk of falling victim to cyber attacks and protect against a wide range of cyber threats."
     },
     {
       "name": "getVpn-prevention",
-      "text": "some vpn as prevention"
+      "text": "A virtual private network (VPN) can increase an organization's cyber resilience by providing an additional layer of security and protection against a wide range of cyber threats. A VPN can encrypt internet traffic and make it more difficult for hackers and cybercriminals to intercept and access sensitive information, which can help to prevent data breaches and other types of cyber attacks.\n\nOverall, using a VPN can significantly increase an organization's cyber resilience by providing an additional layer of security and protection against a wide range of cyber threats."
     },
     {
       "name": "useMfa-prevention",
-      "text": "some MFA as prevention"
+      "text": "Multi-factor authentication (MFA) is a security process requiring users to provide additional evidence of their identity to access a system or service. MFA can increase an organization's cyber resilience by adding a layer of security to protect against unauthorized access and cyber threats. By requiring multiple forms of authentication, MFA makes it much more difficult for hackers and cybercriminals to gain unauthorized access to systems and data. Implementing MFA can significantly increase an organization's cyber resilience by adding a layer of security to protect against unauthorized access and cyber threats."
     },
     {
       "name": "firewall-prevention",
@@ -100,7 +100,7 @@
     },
     {
       "name": "endPointSecurity-prevention",
-      "text": "some end point security as prevention"
+      "text": "Endpoint security is a security strategy that protects the devices and systems used to access an organization's network. These devices, also known as 'endpoints,' can include laptops, tablets, smartphones, and other devices used to connect to the network.\n\nEndpoint security involves implementing various measures to protect against cyber threats, including malware, ransomware, and phishing attacks. These measures can include antivirus software, firewalls, and other security software installed on endpoint devices. Endpoint security can also involve implementing security protocols, such as two-factor authentication, to prevent unauthorized access to systems and data.\n\nOverall, endpoint security aims to protect an organization's systems and data from cyber threats and prevent unauthorized access to sensitive information."
     },
     {
       "name": "createSecureApp-prevention",
@@ -114,7 +114,7 @@
 
     {
       "name": "ransomware-learning",
-      "text": "Some learning of ransomware"
+      "text": "<ol><li>Conduct a thorough investigation to determine the cause and impact of the attack. This can help the organization understand how the ransomware was able to infect their systems and what information was compromised.</li><li>Review and update security policies and procedures. The organization can use the information gathered from the investigation to identify any weaknesses in their security practices and implement measures to prevent similar attacks from occurring in the future.</li><li>Regularly test and evaluate the effectiveness of security measures. This can involve conducting simulated ransomware attacks to test employee awareness and response.</li><li>Communicate with stakeholders. The organization should inform customers, clients, and other stakeholders about the attack and any steps being taken to prevent future attacks.</li></ol>"
     },
 
     {
@@ -123,7 +123,7 @@
     },
     {
       "name": "manInTheMiddle-learning",
-      "text": "Some learning of manInTheMiddle attack"
+      "text": "<ol><li>The vulnerabilities that were exploited: By analyzing the details of the MITM attack, an organization can determine the specific vulnerabilities exploited by the attacker. This information can be used to improve the organization's security posture and prevent similar attacks in the future.</li><li>The importance of secure communication: An MITM attack highlights the importance of using secure communication methods to protect against interception and manipulation of communications. This can include using encrypted connections, secure protocols, and other measures to ensure the confidentiality and integrity of communications.</li><li>The need for solid security protocols: A MITM attack may indicate that an organization's security protocols are not strong enough. By learning from the attack, an organization can strengthen its security protocols and improve its overall security posture.</li></ol>"
     },
     {
       "name": "wateringHole-learning",
