@@ -22,7 +22,7 @@
     },
     {
       "name": "ddos-description",
-      "text": "some description of DDOS"
+      "text": "A denial-of-service (DoS) attack is a type of cyber attack in which an attacker seeks to make a computer or network resource unavailable to its intended users. This is typically accomplished by overwhelming the target with traffic or requests, causing the system to become slow or completely unresponsive.\n\nA distributed denial-of-service (DDoS) attack is a variant of a DoS attack that involves the use of multiple devices or a botnet to send traffic or requests to the target. A DDoS attack can be more challenging to defend against because the traffic and requests come from multiple sources, making it harder to identify and block the malicious traffic."
     },
     {
       "name": "zeroDay-description",
@@ -59,7 +59,7 @@
     },
     {
       "name": "noFireWall-reason",
-      "text": "Some reason of no use of firewall"
+      "text": "Not using a firewall can make an organization more vulnerable to cyber-attacks because it does not provide an additional layer of security to protect against external threats. A firewall acts as a barrier between a network and the internet, blocking incoming traffic that does not meet specific criteria and allowing outgoing traffic to pass through. Without a firewall, an organization's network is more vulnerable to external threats, such as malware, ransomware, and phishing attacks, which can lead to data breaches and other cyber attacks. "
     },
     {
       "name": "noEndPointSecurity-reason",

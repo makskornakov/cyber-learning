@@ -11,15 +11,22 @@ export const ArticleContainer = styled.div`
   padding: 20px;
 
   & h4 {
+    margin-top: 0;
+  }
+  & h5 {
+    text-align: left;
+    width: 100%;
     margin: 0;
   }
 
   & p {
+    margin-top: 5px;
     text-align: left;
     white-space: pre-line;
 
     //ol no space on the left
     & ol {
+      margin: 0;
       padding-left: 30px;
 
       & li {

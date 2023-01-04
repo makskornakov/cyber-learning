@@ -61,18 +61,27 @@ function renderArticle(article: ArticleData) {
           );
           if (!text) return null;
           return (
-            <p
-              style={{
-                textAlign: 'left',
-                whiteSpace: 'pre-line',
-              }}
-              dangerouslySetInnerHTML={{ __html: text.text }}
-            >
-              {/* {text.text} */}
-            </p>
+            <>
+              {textName !== 'description' && textName !== 'learning' && (
+                <h5>{camelCaseToSentenceCase(section)}</h5>
+              )}
+              <p
+                style={{
+                  textAlign: 'left',
+                  whiteSpace: 'pre-line',
+                }}
+                dangerouslySetInnerHTML={{ __html: text.text }}
+              ></p>
+            </>
           );
         })}
       </ArticleContainer>
     );
   });
+}
+
+function camelCaseToSentenceCase(camelCase: string) {
+  return camelCase
+    .replace(/([A-Z])/g, ' $1')
+    .replace(/^./, (str) => str.toUpperCase());
 }
