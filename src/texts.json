@@ -6,7 +6,7 @@
     },
     {
       "name": "ransomware-description",
-      "text": "Some description of ransomware"
+      "text": "Ransomware is a type of malware that encrypts a victim's files. The attackers then demand a ransom from the victim to restore access to the files, hence the ransomware.\n\nThere are a few different ways that ransomware can infect a computer. One standard method is phishing emails that contain malicious links or attachments. The ransomware is downloaded and installed on the victim's computer when the user clicks on the link or opens the attachment. Ransomware can also be delivered through drive-by downloads or software or operating systems vulnerabilities.\n\nOnce a victim's files have been encrypted, a ransom note is displayed on the victim's computer, explaining that the files have been encrypted and demanding payment in exchange for the decryption key. The ransom may be demanded in various forms, such as Bitcoin or other cryptocurrencies.\n\nRansomware attacks can have severe consequences for both individuals and organizations. In addition to the financial cost of the ransom, victims may also suffer from losing access to essential files and the time and resources required to restore their systems. It is vital to back up important files regularly and to implement strong security measures to protect against ransomware attacks."
     },
     {
       "name": "malware-description",
@@ -43,7 +43,7 @@
     },
     {
       "name": "systemsNotUpToDate-reason",
-      "text": "Some reason of systems not up to date"
+      "text": "For several reasons, not being up to date, systems can make an organization more vulnerable to cyber-attacks.\n\nFirst, outdated systems may have known vulnerabilities that have been fixed in more recent versions. Hackers and cybercriminals are constantly searching for and exploiting these vulnerabilities, and organizations with outdated systems are at a higher risk of being targeted.\n\nSecond, outdated systems may need the necessary security features or controls to protect against new and emerging threats. As the threat landscape evolves, it is crucial for organizations to regularly update their systems to ensure that they have the latest security features and protections.\n\nFinally, outdated systems may be more prone to glitches and malfunctions, creating additional vulnerabilities that hackers can exploit.\n\nOrganizations need to keep their systems updated with the latest patches and updates to reduce the risk of cyber attacks. This includes operating systems and any specialized software or applications being used. Regularly updating systems can help to fix known vulnerabilities, provide new security features, and improve overall system stability."
     },
     {
       "name": "notSecureInternet-reason",
@@ -80,7 +80,7 @@
     },
     {
       "name": "systemUpdate-prevention",
-      "text": "some system update as prevention"
+      "text": "System updates are a critical aspect of preventing cyber incidents. Regularly updating an organization's systems can fix known vulnerabilities, provide new security features, and improve overall system stability.\n\nThere are several types of updates that organizations should be concerned with. These include:\n<ol><li>Operating system updates: These updates often include fixes for security vulnerabilities and other bugs, and new features. It is essential to keep operating systems up to date to protect against known vulnerabilities and ensure that the system runs smoothly.</li><li>Software updates: Many software applications, such as web browsers, productivity tools, and antivirus programs, also receive regular updates to fix vulnerabilities and improve functionality. It is essential to update these programs to protect an organization from cyber-attacks.</li><li>Hardware updates: Some hardware devices, such as routers and firewalls, may also require updates to fix vulnerabilities and improve performance.</li></ol>By keeping systems up to date, organizations can reduce the risk of cyber incidents and protect against potential threats. Establishing a system update policy is crucial to ensure that all systems are regularly updated."
     },
     {
       "name": "safeInternet-prevention",
@@ -109,7 +109,7 @@
 
     {
       "name": "phishing-learning",
-      "text": "1. Conduct a thorough investigation to determine the cause and impact of the attack. This can involve analyzing the phishing email or website and reviewing logs and other relevant information. The organization can use this information to understand how the attack was carried out and what information was compromised.\n\n2. Review and update security policies and procedures. The organization can use the information gathered from the investigation to identify any weaknesses in its security practices and implement measures to prevent similar attacks. This could include strengthening email filters, implementing two-factor authentication, and regularly updating software and systems.\n\n3. Regularly test and evaluate the effectiveness of security measures. This can involve conducting simulated phishing attacks to test employee awareness and response.\n\n4. Communicate with stakeholders. The organization should inform customers, clients, and other stakeholders about the attack and any steps being taken to prevent future episodes."
+      "text": "<ol><li>Conduct a thorough investigation to determine the cause and impact of the attack. This can involve analyzing the phishing email or website and reviewing logs and other relevant information. The organization can use this information to understand how the attack was carried out and what information was compromised.</li><li>Review and update security policies and procedures. The organization can use the information gathered from the investigation to identify any weaknesses in its security practices and implement measures to prevent similar attacks. This could include strengthening email filters, implementing two-factor authentication, and regularly updating software and systems.</li><li>Regularly test and evaluate the effectiveness of security measures. This can involve conducting simulated phishing attacks to test employee awareness and response.</li><li>Communicate with stakeholders. The organization should inform customers, clients, and other stakeholders about the attack and any steps being taken to prevent future episodes.</li></ol>"
     },
 
     {

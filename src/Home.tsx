@@ -16,13 +16,13 @@ const HomePage = () => {
       <ArticleContainer>
         <h3>Project description</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          This website is an interactive form of a flowchart which is a brief
+          guide map of actions for organizations that were involved in different
+          cyber incidents. It has a solid information base in paragraphs
+          combined into articles depending on your chosen situation. It is not
+          designed to provide specific suggestions/actions but generalized
+          knowledge, which can be a good start for further, more profound
+          studies.
         </p>
       </ArticleContainer>
       <h3>Incident Selector</h3>
