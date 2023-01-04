@@ -60,7 +60,17 @@ function renderArticle(article: ArticleData) {
             (text) => text.name === `${section}-${textName}`
           );
           if (!text) return null;
-          return <p>{text.text}</p>;
+          return (
+            <p
+              style={{
+                textAlign: 'left',
+                whiteSpace: 'pre-line',
+              }}
+              dangerouslySetInnerHTML={{ __html: text.text }}
+            >
+              {/* {text.text} */}
+            </p>
+          );
         })}
       </ArticleContainer>
     );

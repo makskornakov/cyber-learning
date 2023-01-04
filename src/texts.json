@@ -2,7 +2,7 @@
   "texts": [
     {
       "name": "phishing-description",
-      "text": "Some description of phishing"
+      "text": "Phishing attacks are a type of cybercrime in which an attacker poses as a trusted entity, such as a bank, credit card company, or government agency, to trick victims into disclosing sensitive information, such as login credentials or financial data. These attacks often take the form of fake websites, emails, or text messages that appear legitimate but are designed to steal personal information from unsuspecting users. The attackers may also use social engineering techniques, such as fear or urgency, to convince victims to take immediate action and disclose sensitive information.\n\nPhishing attacks can be challenging to detect, as they often use familiar logos and branding to appear legitimate. It is essential to be cautious when receiving unsolicited communication and to verify the authenticity of any requests for personal information before responding."
     },
     {
       "name": "ransomware-description",
@@ -35,7 +35,7 @@
 
     {
       "name": "noCyberAwareness-reason",
-      "text": "Some reason of no cyber awareness"
+      "text": "Lack of cyber awareness refers to a lack of knowledge or understanding about staying safe and secure online. This can include understanding common cyber threats, such as phishing and malware, and how to protect against them. It can also involve a lack of knowledge about proper security practices, such as using strong passwords and being cautious when disclosing personal information online.\n\nIndividuals lacking in cyber awareness may be more vulnerable to cyber-attacks and incidents. This can lead to many negative consequences, such as compromising personal information, financial loss, and damage to an organization's reputation.\n\nImproving cyber awareness is vital for individuals and organizations to reduce the risk of cyber incidents and protect against threats. This can involve training and education, establishing and enforcing security policies and procedures, and regularly testing and evaluating the effectiveness of cyber awareness efforts."
     },
     {
       "name": "noSecurityAudit-reason",
@@ -72,7 +72,7 @@
 
     {
       "name": "trainStaff-prevention",
-      "text": "some train staff as prevention"
+      "text": "Staff training reduces cybercrime incidents in an organization by educating employees about cyber threats and proper security practices. This can include providing information on common cyber attacks, such as phishing and malware, and teaching employees how to recognize and protect against these threats. Training can also involve teaching employees about proper password management, such as using strong passwords and regularly updating them, and the importance of being cautious when disclosing personal information online.\n\nBy providing staff training on cyber threats and security practices, organizations can help employees to become more aware of the risks and how to protect against them. This can reduce the likelihood of employees falling victim to cyber-attacks and inadvertently disclosing sensitive information.\n\nIn addition to providing general cyber security training, it can also be helpful for organizations to offer specific training for employees in positions that may be at higher risk for cyber attacks, such as IT staff or those with access to sensitive information. Overall, staff training is an effective way for organizations to reduce the risk of cybercrime incidents and protect against potential threats."
     },
     {
       "name": "audit-prevention",
@@ -109,7 +109,7 @@
 
     {
       "name": "phishing-learning",
-      "text": "Some learning of phishing"
+      "text": "1. Conduct a thorough investigation to determine the cause and impact of the attack. This can involve analyzing the phishing email or website and reviewing logs and other relevant information. The organization can use this information to understand how the attack was carried out and what information was compromised.\n\n2. Review and update security policies and procedures. The organization can use the information gathered from the investigation to identify any weaknesses in its security practices and implement measures to prevent similar attacks. This could include strengthening email filters, implementing two-factor authentication, and regularly updating software and systems.\n\n3. Regularly test and evaluate the effectiveness of security measures. This can involve conducting simulated phishing attacks to test employee awareness and response.\n\n4. Communicate with stakeholders. The organization should inform customers, clients, and other stakeholders about the attack and any steps being taken to prevent future episodes."
     },
 
     {
