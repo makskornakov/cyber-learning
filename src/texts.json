@@ -14,7 +14,7 @@
     },
     {
       "name": "wateringHole-description",
-      "text": "Some description of watering-hole"
+      "text": "A watering hole attack is a type of cyber attack in which an attacker targets a specific group or organization by compromising websites known to be frequented by members of that group. The attacker then waits for a member of the targeted group to visit the compromised website, at which point the attacker can deliver malware or other types of cyber threats to the victim's device. Watering hole attacks are often difficult to detect because they do not involve direct attacks on the target organization or because the compromised websites may appear legitimate."
     },
     {
       "name": "manInTheMiddle-description",
@@ -39,7 +39,7 @@
     },
     {
       "name": "noSecurityAudit-reason",
-      "text": "Some reason of no security audit"
+      "text": "Not conducting a security audit can make an organization more vulnerable to cyber-attacks because it does not identify and address potential vulnerabilities in its systems and processes. A security audit involves examining an organization's systems and processes to identify potential vulnerabilities and assess the effectiveness of existing security measures. Without a security audit, an organization may not be aware of its vulnerabilities and may not have the necessary safeguards to protect against cyber threats."
     },
     {
       "name": "systemsNotUpToDate-reason",
@@ -76,7 +76,7 @@
     },
     {
       "name": "audit-prevention",
-      "text": "some audit as prevention"
+      "text": "A security audit is a process that involves examining an organization's systems and processes to identify potential vulnerabilities and assess the effectiveness of existing security measures. An organization can identify and prioritize risks by conducting a security audit and implementing appropriate measures to reduce the risk of cyber-attacks and data breaches. This can include implementing more robust security protocols, updating software and systems to address vulnerabilities, and providing employee training to improve awareness of cyber threats.\n\nA security audit can help an organization become more cyber-resilient by identifying and addressing vulnerabilities in its systems and processes. This can reduce the risk of cyber-attacks and data breaches and help ensure that the organization has the necessary safeguards to protect against cyber threats."
     },
     {
       "name": "systemUpdate-prevention",
@@ -96,7 +96,7 @@
     },
     {
       "name": "firewall-prevention",
-      "text": "some firewall as prevention"
+      "text": "A firewall can make an organization more resilient to cyber incidents by providing an additional layer of security to protect against external threats. A firewall acts as a barrier between a network and the internet, blocking incoming traffic that does not meet specific criteria and allowing outgoing traffic to pass through. By blocking malicious traffic and only allowing legitimate traffic to pass through, a firewall can help to prevent malware, ransomware, DDOS attacks, and other types of cyber threats from entering the network. A firewall can also protect against unauthorized access to systems and data by requiring users to authenticate before accessing specific resources."
     },
     {
       "name": "endPointSecurity-prevention",
@@ -127,12 +127,12 @@
     },
     {
       "name": "wateringHole-learning",
-      "text": "Some learning of watering-hole"
+      "text": "<ol><li>The vulnerabilities that were exploited: By analyzing the details of the watering hole attack, an organization can determine the specific vulnerabilities that the attacker exploited. This information can be used to improve the organization's security posture and prevent similar attacks in the future.</li><li>The need for solid security protocols: A watering hole attack may indicate that an organization's security protocols are not strong enough to prevent employees from accessing compromised websites. By learning from the attack, an organization can strengthen its security protocols and improve its overall security posture.</li><li>The importance of monitoring website traffic: A watering hole attack may be successful if an organization lacks adequate monitoring to detect and block access to compromised websites. By learning from the attack, an organization can improve its monitoring capabilities and be better prepared to detect and prevent similar attacks in the future.</li></ol>"
     },
 
     {
       "name": "ddos-learning",
-      "text": "Some learning of ddos"
+      "text": "<ol><li>The vulnerabilities that were exploited: By analyzing the details of the DDoS attack, an organization can determine the specific vulnerabilities exploited by the attacker. This information can be used to improve the organization's security posture and prevent similar attacks in the future.</li><li>The importance of secure communication: A DDoS attack highlights the importance of using secure communication methods to protect against interception and manipulation of communications. This can include using encrypted connections, secure protocols, and other measures to ensure the confidentiality and integrity of communications.</li><li>The need for solid security protocols: A DDoS attack may indicate that an organization's security protocols are not strong enough. By learning from the attack, an organization can strengthen its security protocols and improve its overall security posture.</li><li>The importance of having a DDoS response plan: A DDoS attack can significantly impact an organization's operations. By learning from the attack, an organization can develop and test a DDoS response plan to ensure that it is prepared to respond effectively in the event of a future attack.</li></ol>"
     },
 
     {
