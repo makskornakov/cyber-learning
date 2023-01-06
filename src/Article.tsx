@@ -1,4 +1,4 @@
-import { useLocation, Link } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import { ArticleContainer, FooterContainer, LinkHome } from './Article.styled';
 import { HomeContainer } from './Home.styled';
 import infoMap from './infoMap.json';
