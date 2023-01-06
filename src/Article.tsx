@@ -1,5 +1,5 @@
 import { useLocation, Link } from 'react-router-dom';
-import { ArticleContainer, FooterContainer } from './Article.styled';
+import { ArticleContainer, FooterContainer, LinkHome } from './Article.styled';
 import { HomeContainer } from './Home.styled';
 import infoMap from './infoMap.json';
 import NoPage from './NoPage';
@@ -32,7 +32,7 @@ const Article = () => {
       <h3>{article.title}</h3>
       {renderArticle(article)}
       <FooterContainer>
-        <Link to="/">Go back</Link>
+        <LinkHome to="/">Go back</LinkHome>
       </FooterContainer>
     </HomeContainer>
   );

@@ -1,11 +1,11 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 import { flexStyles } from './Home.styled';
 
 export const ArticleContainer = styled.div`
   ${flexStyles}
   flex-direction: column;
 
-  /* outline: 1px solid black; */
   width: 60%;
   margin-top: 20px;
   padding: 20px;
@@ -42,13 +42,27 @@ export const ArticleContainer = styled.div`
     width: 90%;
   }
 `;
+export const LinkHome = styled(Link)`
+  ${flexStyles}
+  padding: 6px 12px;
+  border: 1px solid black;
+  border-radius: 3px;
+  text-decoration: none;
+  color: black;
+  transition-duration: 0.4s;
+  transition-property: background-color, color;
 
+  &:hover {
+    background: black;
+    color: white;
+  }
+`;
 export const FooterContainer = styled.div`
   ${flexStyles}
   flex-direction: row;
   width: 100%;
   height: 50px;
-  outline: 0.5px solid black;
+  /* outline: 0.5px solid black; */
   margin-top: 50px;
   margin-bottom: 50px;
 `;
